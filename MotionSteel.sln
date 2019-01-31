@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotionSteel", "MotionSteel\MotionSteel.csproj", "{CC4C0CFB-693E-46A7-871A-B914A7360469}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotionSteel.WEBUI", "MotionSteel\MotionSteel.WEBUI.csproj", "{CC4C0CFB-693E-46A7-871A-B914A7360469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotionSteel.DataLayer", "MotionSteel.DataLayer\MotionSteel.DataLayer.csproj", "{6D0B4978-37C5-4ABB-8EF3-D863742A7264}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CC4C0CFB-693E-46A7-871A-B914A7360469}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC4C0CFB-693E-46A7-871A-B914A7360469}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC4C0CFB-693E-46A7-871A-B914A7360469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D0B4978-37C5-4ABB-8EF3-D863742A7264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D0B4978-37C5-4ABB-8EF3-D863742A7264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D0B4978-37C5-4ABB-8EF3-D863742A7264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D0B4978-37C5-4ABB-8EF3-D863742A7264}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
